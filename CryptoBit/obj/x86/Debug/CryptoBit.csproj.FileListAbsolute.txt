@@ -1,0 +1,9 @@
+c:\Users\Ch\Documents\Visual Studio 2010\Projects\CryptoBit\CryptoBit\bin\Debug\CryptoBit.exe
+c:\Users\Ch\Documents\Visual Studio 2010\Projects\CryptoBit\CryptoBit\bin\Debug\CryptoBit.pdb
+c:\Users\Ch\Documents\Visual Studio 2010\Projects\CryptoBit\CryptoBit\obj\x86\Debug\CryptoBit.Form1.resources
+c:\Users\Ch\Documents\Visual Studio 2010\Projects\CryptoBit\CryptoBit\obj\x86\Debug\CryptoBit.Properties.Resources.resources
+c:\Users\Ch\Documents\Visual Studio 2010\Projects\CryptoBit\CryptoBit\obj\x86\Debug\CryptoBit.csproj.GenerateResource.Cache
+c:\Users\Ch\Documents\Visual Studio 2010\Projects\CryptoBit\CryptoBit\obj\x86\Debug\CryptoBit.exe
+c:\Users\Ch\Documents\Visual Studio 2010\Projects\CryptoBit\CryptoBit\obj\x86\Debug\CryptoBit.pdb
+C:\Users\Ch\documents\visual studio 2010\Projects\CryptoBit\CryptoBit\bin\Debug\Cryptokeys.txt
+C:\Users\Ch\documents\visual studio 2010\Projects\CryptoBit\CryptoBit\obj\x86\Debug\CryptoBit.csprojResolveAssemblyReference.cache
