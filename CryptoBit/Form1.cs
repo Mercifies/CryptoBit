@@ -12,6 +12,7 @@ namespace CryptoBit
 {
     public partial class Form1 : Form
     {
+        CheckBox lastChecked;
         private int cryptInt = 0;
         private int saveInt = 0;
         private int keyLength = 64;
@@ -33,6 +34,7 @@ namespace CryptoBit
         {
             InitializeComponent();
             readFile = File.ReadAllLines(@"Cryptokeys.txt");
+            lastChecked = checkBox3;
         }
 
         // Generate serial key
@@ -60,40 +62,59 @@ namespace CryptoBit
         private void checkBox6_CheckedChanged(object sender, EventArgs e)
         {
             keyLength = 8;
+            checkState(lastChecked, checkBox6);
+            lastChecked = checkBox6;
         }
 
         // 16-bit
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
             keyLength = 16;
+            checkState(lastChecked, checkBox1);
+            lastChecked = checkBox1;
         }
 
         // 32-bit
         private void checkBox2_CheckedChanged(object sender, EventArgs e)
         {
             keyLength = 32;
+            checkState(lastChecked, checkBox2);
+            lastChecked = checkBox2;
         }
 
         // 64-bit
         private void checkBox3_CheckedChanged(object sender, EventArgs e)
         {
             keyLength = 64;
+            checkState(lastChecked, checkBox3);
+            lastChecked = checkBox3;
         }
 
         // 128-bit
         private void checkBox4_CheckedChanged(object sender, EventArgs e)
         {
             keyLength = 128;
+            checkState(lastChecked, checkBox4);
+            lastChecked = checkBox4;
         }
 
         // 256-bit
         private void checkBox5_CheckedChanged(object sender, EventArgs e)
         {
             keyLength = 256;
+            checkState(lastChecked, checkBox5);
+            lastChecked = checkBox5;
         }
 
         // controls checkboxes checked state
-        private void checkState()
+        private void checkState(CheckBox lastChecked, object sender) // not sure what to do with object sender
+        {
+            CheckBox activeCheckBox = sender as CheckBox;
+            if (activeCheckBox != lastChecked && lastChecked != null) lastChecked.Checked = false;
+            lastChecked = activeCheckBox.Checked ? activeCheckBox : null;
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
         {
 
         }

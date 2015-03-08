@@ -7,3 +7,12 @@ c:\Users\Ch\Documents\Visual Studio 2010\Projects\CryptoBit\CryptoBit\obj\x86\De
 c:\Users\Ch\Documents\Visual Studio 2010\Projects\CryptoBit\CryptoBit\obj\x86\Debug\CryptoBit.pdb
 C:\Users\Ch\documents\visual studio 2010\Projects\CryptoBit\CryptoBit\bin\Debug\Cryptokeys.txt
 C:\Users\Ch\documents\visual studio 2010\Projects\CryptoBit\CryptoBit\obj\x86\Debug\CryptoBit.csprojResolveAssemblyReference.cache
+C:\Users\Ch\Documents\CryptoBit\CryptoBit\obj\x86\Debug\CryptoBit.exe
+C:\Users\Ch\Documents\CryptoBit\CryptoBit\obj\x86\Debug\CryptoBit.pdb
+C:\Users\Ch\Documents\CryptoBit\CryptoBit\obj\x86\Debug\CryptoBit.csprojResolveAssemblyReference.cache
+C:\Users\Ch\Documents\CryptoBit\CryptoBit\obj\x86\Debug\CryptoBit.Form1.resources
+C:\Users\Ch\Documents\CryptoBit\CryptoBit\obj\x86\Debug\CryptoBit.Properties.Resources.resources
+C:\Users\Ch\Documents\CryptoBit\CryptoBit\obj\x86\Debug\CryptoBit.csproj.GenerateResource.Cache
+C:\Users\Ch\Documents\CryptoBit\CryptoBit\bin\Debug\Cryptokeys.txt
+C:\Users\Ch\Documents\CryptoBit\CryptoBit\bin\Debug\CryptoBit.exe
+C:\Users\Ch\Documents\CryptoBit\CryptoBit\bin\Debug\CryptoBit.pdb
